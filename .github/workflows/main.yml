@@ -1,0 +1,19 @@
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+pkg install yarn
+termux-setup-storage
+cd /sdcard
+cd "Folder name where you extract the file"
+cd v8
+yarn install
+rm -rf session
+{"noiseKey":{"private":{"type":"Buffer","data":"CP1J+BCvVzCpuoW5lHQsQqRwh48fWOv/4XcT0hZDlm0="},"public":{"type":"Buffer","data":"GB4qocV/SRRNjnCLi27F/6z4HW5zjrnBg0dmfXWgj1s="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"wNXJlEP5ZCy5RJZUfOxmCPpXA0Qe3htouUQyWAiQok4="},"public":{"type":"Buffer","data":"Vjji7MqU01rwycSlleF/G4hzMiWN4FO0b3zqCZIrnkM="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"sF6699EUstoZNEzxt5GgpAvO3H5ipo8JCDyD75CQhks="},"public":{"type":"Buffer","data":"ySmPVp7ZqHXQn6t+EKkkB3ciuB12uJ6uWzdqnKzs7BM="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"yCMEXRk20zf35Jqc5AJTToDmONFSg0iy3bRpmUeYl0M="},"public":{"type":"Buffer","data":"xHZ1iwVzgST65Ge3qtZ+PRnpJnYw03Zi4ueIm7F4eTA="}},"signature":{"type":"Buffer","data":"+h8DGtldEvmtt3cea+jgp97f7I6RjCiW16lVkqS9E+N4WUgYx2lgNwi/flBoSPvJSkVAjk0a0m8nXy3A3jx0hA=="},"keyId":1},"registrationId":209,"advSecretKey":"fmOPybMToo9W6F4djyaHff4wo7wyBedFgDGSB2ESogU=","processedHistoryMessages":[{"key":{"remoteJid":"237699435438@s.whatsapp.net","fromMe":true,"id":"E3A73F930C19E9767A977AA730951BFE"},"messageTimestamp":1725669794},{"key":{"remoteJid":"237699435438@s.whatsapp.net","fromMe":true,"id":"665641227CE7CF7DF0C27F1C981E4A35"},"messageTimestamp":1725669798}],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":1,"accountSettings":{"unarchiveChats":false},"deviceId":"XI9Tw9s6Q3Wtt53lkDzjpw","phoneId":"b6cbf3ad-97aa-409d-845e-e3c4c3feffaa","identityId":{"type":"Buffer","data":"LwNKpBhxrs92sJ2CQvtvSp5zsF0="},"registered":true,"backupToken":{"type":"Buffer","data":"N4r0GTCVobhbQ5MR4eWHC08ZpuY="},"registration":{},"pairingCode":"5SFD8HMM","me":{"id":"237699435438:86@s.whatsapp.net","lid":"181935301251309:86@lid","name":"◥꧁ད 𝘔𝘜𝘙𝘒𝘠 Ð℥Å₮H༒℟ÏĐ℥℟ཌ꧂◤"},"account":{"details":"CMHy0u4CEJjD7rYGGAcgACgA","accountSignatureKey":"iHb4+3lEEbKIt3sRxMzMpfNC05SDXmtU9z5S4Nma1x4=","accountSignature":"xOky/Mude9oJ1XkV4iyRyGb2lIie6jawmmysoQSHGcEQtbYk5jx/OGOyP6dX0Iu9Je/SH62uP7C94bkXfPe4Dg==","deviceSignature":"06KDi8XuYNFK9fNs2yoOVKlEWoDCmbnZin7A88sLwa49Yz8/Qn9QNrJ14PNTgPtTwZcFYEXCaSqDoaDo7t1WiQ=="},"signalIdentities":[{"identifier":{"name":"237699435438:86@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BYh2+Pt5RBGyiLd7EcTMzKXzQtOUg15rVPc+UuDZmtce"}}],"platform":"android","lastAccountSyncTimestamp":1725669788,"myAppStateKeyId":"AAAAAKVF"}
+npm start
